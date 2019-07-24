@@ -1,0 +1,108 @@
+*,body,html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+}
+
+h1
+{
+	font-size: 36px;
+	color: white;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+h3
+{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.primary{
+	color: red;
+}
+
+.primary-bg{
+	background-color: red;
+}
+
+.secondary
+{
+	color: #c60000;
+}
+
+.secondary-bg
+{
+	background-color: #c60000;
+}
+
+.dark-blue
+{
+	color: #324d5b;
+}
+
+.dark-grey
+{
+	color: #696969;
+}
+
+.light-grey
+{
+	color: #c5c5c5;
+}
+
+a:focus
+{
+	outline: 0;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+ol,ul
+{
+	margin-bottom: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+.section-padding
+{
+	padding: 56px 0 0 0;
+}
+
+.white{
+	color: #fff;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.center
+{
+	text-align: center;
+}

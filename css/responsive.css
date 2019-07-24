@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 992px)
+{
+    .animation
+    {
+        animation: none;
+        -webkit-animation: none ;
+        -moz-animation: none ;
+        -ms-animation: none;
+        -o-animation: none;
+        opacity: 1;
+    }
+
+    /*** slider ***/
+    .slider, .slider ul.slider-carousel , .slider ul.slider-carousel li
+    {
+        height: 450px;
+    }
+
+    .slider ul.slider-carousel li h1
+    {
+        margin-bottom: 30px;
+        margin-top:100px;
+    }
+    .slider ul.slider-arrows
+    {
+        opacity: 0;
+    }
+
+    .slider ul.slider-carousel li h3
+    {
+        margin-top:200px;
+
+    }
+    .slider ul.slider-carousel li h1
+    {
+        margin-top: 20px;
+
+    }
+    .divider
+    {
+        display: none;
+    }
+
+    .col-md-2-4
+    {
+       display: none;
+    }
+    .col-md-2-4.dva
+    {
+        display: block;
+        width: 50%;
+    }
+    .col-md-2-4.lokacija
+    {
+        text-align: center;
+    }
+
+    .col-md-2-4.dva i
+    {
+
+        text-align: left;
+    }
+
+
+}
+@media screen and (max-width: 610px) {
+    .slider ul.slider-carousel li h1 {
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 550px)
+    {
+        .slider, .slider ul.slider-carousel , .slider ul.slider-carousel li
+        {
+            height: 350px;
+        }
+
+
+
+        .slider ul.slider-carousel li h1
+        {
+            margin-bottom: 30px;
+            margin-top:70px;
+        }
+    .slider ul.slider-carousel li h3
+    {
+        margin-top:130px;
+
+    }
+    .slider ul.slider-carousel li h1
+    {
+        margin-top: 20px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .slider ul li a
+    {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slider ul.slider-carousel li h1 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+}
